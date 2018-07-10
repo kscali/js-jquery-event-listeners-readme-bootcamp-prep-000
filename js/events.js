@@ -1,6 +1,6 @@
 //define functions here
 function getIt() {
-  $('p').on("click", function(){
+  $('p').on('click', function(){
     alert("Hey!");
   });
 }
@@ -20,7 +20,7 @@ function pressIt() {
 }
    
 function submitIt() {
-  $("form").on("submit", function() {
+  $('form').on('submit', function() {
     alert("Your form is going to be submitted now.");
   });
 }
