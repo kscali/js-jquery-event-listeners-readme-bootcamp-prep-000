@@ -8,6 +8,12 @@ $(document).ready(function(){
     });
   }
   
-  
+  function frameIt() {
+    $('img.tasty').on('load', function() {
+      
+        border : red;
+      
+    });
+  }
 
 });
