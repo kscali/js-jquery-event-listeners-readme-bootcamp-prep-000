@@ -11,8 +11,12 @@ $(document).ready(function(){
   function frameIt() {
     $('img.tasty').on('load', function() {
       border : red;
-      
     });
   }
-
+  
+  function pressIt() {
+    $(document).on('keydown', function(key) {
+      if(key.which == )
+    }
+  }
 });
